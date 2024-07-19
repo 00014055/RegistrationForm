@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма регистрации</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!-- Реализована html-страницу с формой регистрации -->
+    <form class="registration-form" id="registrationForm">
+        <h2>Регистрация</h2>
+        <label for="firstName">Имя</label>
+        <input type="text" id="firstName" name="firstName" required>
+        <span class="error" id="firstNameError"></span>
+
+        <label for="lastName">Фамилия</label>
+        <input type="text" id="lastName" name="lastName" required>
+        <span class="error" id="lastNameError"></span>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        <span class="error" id="emailError"></span>
+
+        <label for="password">Пароль</label>
+        <input type="password" id="password" name="password" required>
+        <span class="error" id="passwordError"></span>
+
+        <label for="confirmPassword">Подтверждение пароля</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" required>
+        <span class="error" id="confirmPasswordError"></span>
+
+        <label for="birthDate">Дата рождения</label>
+        <input type="date" id="birthDate" name="birthDate" required>
+        <span class="error" id="birthDateError"></span>
+
+        <!-- Реализована кнопка "Отправить" -->
+        <button type="submit" id="submitButton" disabled>Отправить</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
