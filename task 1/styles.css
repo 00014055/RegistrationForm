@@ -1,0 +1,24 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+thead {
+    background-color: #a1a1a1;
+}
+
+.blue-background {
+    background-color: blue;
+    color: white;
+}
+
+.green-background {
+    background-color: green;
+    color: white;
+}
