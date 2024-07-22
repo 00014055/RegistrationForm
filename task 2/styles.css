@@ -1,0 +1,141 @@
+.table-custom-border {
+    box-sizing: border-box;
+    width: 288px;
+    height: 152px;
+    left: 16px;
+    top: 203px;
+    background: #FFFFFF;
+    border-radius: 9.76934px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo img {
+    height: 165px;
+    width: 200px;
+}
+
+.header-logo svg {
+    margin-left: auto;
+    margin-right: 16px;
+}
+
+.main-profile {
+    border: 2px solid #ffc107;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.profile-info {
+    flex: 1;
+}
+
+.profile-info h5 {
+    margin: 0;
+}
+
+.profile-info p {
+    margin: 5px 0;
+}
+
+.profile-info strong {
+    text-decoration: underline;
+}
+
+.table-custom {
+    width: 100%;
+    border: 2px solid #ffc107;
+    border-radius: 10px;
+}
+
+.table-custom th, .table-custom td {
+    text-align: left;
+}
+
+.btn-custom {
+    background-color: #ffc107;
+    color: #000;
+    border-radius: 5px;
+}
+
+.pagination-custom {
+    display: flex;
+    justify-content: center;
+}
+
+.pagination-custom .page-item .page-link {
+    color: #000;
+}
+
+.pagination-custom .page-item.active .page-link {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    border-radius: 100%;
+    color: #000;
+}
+
+.card-custom {
+    border: 2px solid #ffc107;
+    border-radius: 10px;
+}
+
+.card-custom img {
+    border-bottom: 2px solid #ffc107;
+}
+
+.card-custom .card-body {
+    text-align: center;
+}
+
+.card-custom .card-title {
+    margin-bottom: 10px;
+}
+
+.page-link {
+    border: none;
+}
+
+.mx-auto{
+    padding-right: 10px;
+}
+
+.btn-outline-warning {
+    position: absolute;
+    right: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #000;
+    padding: 3px 12px;
+}
+
+.text-bg-warning{
+    background-color: #ffc107;
+    border-color: #ffc107;
+    border-radius: 10%;
+    color: #000;
+    padding: 5px 10px;
+    font-weight: 400;
+    position: absolute;
+    right: 10px;
+
+}
+
+.btn-warning{
+    display: block;
+    border-radius: 8px;
+}
