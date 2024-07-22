@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT Blog</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="container-md d-flex justify-content-between align-items-center header-logo">
+        <a href="#" class="navbar-brand">
+            <img src="https://s3-alpha-sig.figma.com/img/9860/e9da/b953d40d441e1a4236779fa938b097e5?Expires=1722211200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=XjZo8DWuuO5oG8bPndD22~vzVyEzKibrniFSNzI8DiPgD6NwuLQ7yNJMH3WjJ4m7uwW5OhQcmeOj2rd~abNYwFOUCRipciv9XccO9yqGr~WLQ7I~sCArht0GwTODi6gM9jChhz-qyOZQp3g359EDN6U5p1Mg1elS6N5EStj9xcMhdqir85-CQYlaWkQbRPl79T7KQoqLO6JlkO29MbOqME1ld0CLRjBmEdPVQenPT~jCJ5Y3LcBJFLOB8qxj27SZiu3sa~pGW--In0jm3gnzNYqmMYZxOrKParcEWoYuva9U2~Iw9tFGXst2swE9fIl0a9cm~K7-LStQb1AkTvU~XA__" 
+            alt="Logo">
+        </a>
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+        </svg>
+    </header>
+
+    <main class="container-md">
+        <div class="main-profile">
+            <img src="https://s3-alpha-sig.figma.com/img/f22f/1f83/e1a7c11446ce4914842118bd6b42b8e1?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pBmI4vXcwPOH04n7QIgxkHuqfHAzhrJlob2wQb6v6UjxBHb9p3HvfosO8xaj1p7poXnR1nG~L4qdXrjjbn573Iv3BSVc-qpWttJBFa5dneVjlERWXAVaqD9g6zaYFrGZeQ~3ny78fOtAQnvxUoBOmAjxhASRHVlToyrUNa6bVJXmoXzx8uH1pshaL~MiU8mtpUHPjELsWEZmC~ZuVs8ENKuH8bF0sTQifiHn20qEZmYkPkhC0ZSvcevo1Q7-Gmy8qSL8XbdiFyVUlco~QeIN8C0dcLjDDSi0tbiGe20py23XdxjNg5xQ78EkA4n1y-156joLSmhzvslqNID26HuxFw__" 
+            class="mx-auto" alt="Profile Picture ml-1" width="150" height="200">
+            <div class="profile-info">
+                <h5>Ивлеева Анастасия</h5>
+                <p>История о звезде. История о звезде. История о звезде. <br>  
+                    История о звезде. История о звезде. История о звезде. <br> 
+                    История о звезде. История о звезде. История о звезде.</p>
+                <p>Всего коллекций: <strong>10</strong></p>
+                <p>Стоимость: от <strong>500 ₽</strong> до <strong>1000000 ₽</strong></p>
+                <p><strong>Топовые коллекционеры:</strong></p>
+            </div>
+        </div>
+
+        <!-- Id table -->
+        <div class="main-profile d-flex flex-wrap justify-content-center">
+            <table class="table table-bordered table-custom">
+                <thead>
+                    <tr>
+                        <th scope="col">Рейтинг</th>
+                        <th scope="col">ID/nickname</th>
+                        <th scope="col">Имя</th>
+                        <th scope="col">Сумма баллов</th>
+                        <th scope="col">Подробнее</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">#1</th>
+                        <td>@zwzeda123...</td>
+                        <td>Варветкина Ангелина</td>
+                        <td>845</td>
+                        <td><button class="btn btn-custom">Подробнее</button></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">#2</th>
+                        <td class="text-secondary">Пользователь скрыт</td>
+                        <td class="text-secondary">Пользователь скрыт</td>
+                        <td>800</td>
+                        <td><button class="btn btn-custom">Подробнее</button></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">#3</th>
+                        <td>1234923452...</td>
+                        <td>Пучкова Анастасия</td>
+                        <td>787</td>
+                        <td><button class="btn btn-custom">Подробнее</button></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">#4</th>
+                        <td class="text-secondary">Пользователь скрыт</td>
+                        <td class="text-secondary">Пользователь скрыт</td>
+                        <td>781</td>
+                        <td><button class="btn btn-custom">Подробнее</button></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">#5</th>
+                        <td>124k948</td>
+                        <td>Мацуев Илья</td>
+                        <td>743</td>
+                        <td><button class="btn btn-custom">Подробнее</button></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <nav aria-label="Page navigation example">
+                <ul class="pagination pagination-custom">
+                    <li class="page-item disabled">
+                        <a class="page-link" href="#" tabindex="-1" aria-disabled="true">«</a>
+                    </li>
+                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">4</a></li>
+                    <li class="page-item"><a class="page-link" href="#">5</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">»</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+
+
+        <!-- Cards here -->
+    <div class="row">
+        <div class="col-md-6 mb-4">
+            <div class="card">
+                <img src="https://s3-alpha-sig.figma.com/img/b033/41a2/8cf158951f85281082503778f1c1adda?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=o-b60r5M1IahJtkHyMlGrebkQNGF2ZJfGza9m8MwIeoBNGTicx4NWg2Kfu-GvyK0mTf4b~WyrTQqxDTnQPZ-731i1UpaHuEesabglS4D~EKC0FN481pSMDqyKHWxrYvUsCqFjhqmh97rblQQS~FSQ3ZP8vINyMj4ZkZW3kXeEiiEcziovKaIK4DsPcIf45NU~UGo1ABVnIYHxV5ItKbK58ycVESqkTPYc9BL5LJr~MuhCQHxsQy7or87H5pTXwQuy7HE-JxxyU7dlLwJDYLqZJZI5cFVmGClbkq9QgpETBEZ6JSVC9qgObxxOJzarpobaLIAcFpjNmg-m69UWY~MKQ__"
+                 class="card-img-top" alt="Star 1" >
+                <div class="card-body">
+                    <h5 class="card-title">Без слов</h5>
+                    <div class="container-md d-flex justify-content-between align-items-center">
+                        <img src="https://s3-alpha-sig.figma.com/img/f22f/1f83/e1a7c11446ce4914842118bd6b42b8e1?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pBmI4vXcwPOH04n7QIgxkHuqfHAzhrJlob2wQb6v6UjxBHb9p3HvfosO8xaj1p7poXnR1nG~L4qdXrjjbn573Iv3BSVc-qpWttJBFa5dneVjlERWXAVaqD9g6zaYFrGZeQ~3ny78fOtAQnvxUoBOmAjxhASRHVlToyrUNa6bVJXmoXzx8uH1pshaL~MiU8mtpUHPjELsWEZmC~ZuVs8ENKuH8bF0sTQifiHn20qEZmYkPkhC0ZSvcevo1Q7-Gmy8qSL8XbdiFyVUlco~QeIN8C0dcLjDDSi0tbiGe20py23XdxjNg5xQ78EkA4n1y-156joLSmhzvslqNID26HuxFw__" 
+                            alt="profile picture" class="mx-auto" width="100" height="100" style="padding-right: 10px; position:absolute; left: 20px; padding-bottom: 10px;">
+                            <div style="padding-left: 80px;">
+                                <h5 >Настя Ивлеева Вячяслаовна</h5>
+                                <P style="color: #FF9900; padding-top: 0; margin-top: 0;">проверено</P>
+                            </div>
+                            
+                    </div>
+
+                    <p class="card-text"><strong>Редкость:</strong>
+                        <button type="button" class="btn btn-outline-warning">уникальная</button>
+                    </p>
+                    <p class="card-text"><strong>Цена:</strong>
+                        <span class="badge text-bg-warning">от 500 ₽</span>
+                    </p>
+                    <a href="#" class="btn btn-warning">Купить</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-md-6 mb-4">
+            <div class="card">
+                <img src="https://s3-alpha-sig.figma.com/img/b033/41a2/8cf158951f85281082503778f1c1adda?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=o-b60r5M1IahJtkHyMlGrebkQNGF2ZJfGza9m8MwIeoBNGTicx4NWg2Kfu-GvyK0mTf4b~WyrTQqxDTnQPZ-731i1UpaHuEesabglS4D~EKC0FN481pSMDqyKHWxrYvUsCqFjhqmh97rblQQS~FSQ3ZP8vINyMj4ZkZW3kXeEiiEcziovKaIK4DsPcIf45NU~UGo1ABVnIYHxV5ItKbK58ycVESqkTPYc9BL5LJr~MuhCQHxsQy7or87H5pTXwQuy7HE-JxxyU7dlLwJDYLqZJZI5cFVmGClbkq9QgpETBEZ6JSVC9qgObxxOJzarpobaLIAcFpjNmg-m69UWY~MKQ__"
+                 class="card-img-top" alt="Star 1" >
+                <div class="card-body">
+                    <h5 class="card-title">Без слов</h5>
+                    <div class="container-md d-flex justify-content-between align-items-center">
+                        <img src="https://s3-alpha-sig.figma.com/img/f22f/1f83/e1a7c11446ce4914842118bd6b42b8e1?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pBmI4vXcwPOH04n7QIgxkHuqfHAzhrJlob2wQb6v6UjxBHb9p3HvfosO8xaj1p7poXnR1nG~L4qdXrjjbn573Iv3BSVc-qpWttJBFa5dneVjlERWXAVaqD9g6zaYFrGZeQ~3ny78fOtAQnvxUoBOmAjxhASRHVlToyrUNa6bVJXmoXzx8uH1pshaL~MiU8mtpUHPjELsWEZmC~ZuVs8ENKuH8bF0sTQifiHn20qEZmYkPkhC0ZSvcevo1Q7-Gmy8qSL8XbdiFyVUlco~QeIN8C0dcLjDDSi0tbiGe20py23XdxjNg5xQ78EkA4n1y-156joLSmhzvslqNID26HuxFw__" 
+                            alt="profile picture" class="mx-auto" width="100" height="100" style="padding-right: 10px; position: absolute; left: 20px; padding-bottom: 10px;">
+                            <div style="padding-left: 80px;">
+                                <h5 >Настя Ивлеева Вячяслаовна</h5>
+                                <P style="color: #FF9900; padding-top: 0; margin-top: 0;">проверено</P>
+                            </div>
+                            
+                    </div>
+
+                    <p class="card-text"><strong>Редкость:</strong>
+                        <button type="button" class="btn btn-outline-warning">уникальная</button>
+                    </p>
+                    <p class="card-text"><strong>Цена:</strong>
+                        <span class="badge text-bg-warning">от 500 ₽</span>
+                    </p>
+                    <a href="#" class="btn btn-warning">Купить</a>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="col-md-6 mb-4">
+            <div class="card">
+                <img src="https://s3-alpha-sig.figma.com/img/b033/41a2/8cf158951f85281082503778f1c1adda?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=o-b60r5M1IahJtkHyMlGrebkQNGF2ZJfGza9m8MwIeoBNGTicx4NWg2Kfu-GvyK0mTf4b~WyrTQqxDTnQPZ-731i1UpaHuEesabglS4D~EKC0FN481pSMDqyKHWxrYvUsCqFjhqmh97rblQQS~FSQ3ZP8vINyMj4ZkZW3kXeEiiEcziovKaIK4DsPcIf45NU~UGo1ABVnIYHxV5ItKbK58ycVESqkTPYc9BL5LJr~MuhCQHxsQy7or87H5pTXwQuy7HE-JxxyU7dlLwJDYLqZJZI5cFVmGClbkq9QgpETBEZ6JSVC9qgObxxOJzarpobaLIAcFpjNmg-m69UWY~MKQ__"
+                 class="card-img-top" alt="Star 1" >
+                <div class="card-body">
+                    <h5 class="card-title">Без слов</h5>
+                    <div class="container-md d-flex justify-content-between align-items-center">
+                        <img src="https://s3-alpha-sig.figma.com/img/f22f/1f83/e1a7c11446ce4914842118bd6b42b8e1?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pBmI4vXcwPOH04n7QIgxkHuqfHAzhrJlob2wQb6v6UjxBHb9p3HvfosO8xaj1p7poXnR1nG~L4qdXrjjbn573Iv3BSVc-qpWttJBFa5dneVjlERWXAVaqD9g6zaYFrGZeQ~3ny78fOtAQnvxUoBOmAjxhASRHVlToyrUNa6bVJXmoXzx8uH1pshaL~MiU8mtpUHPjELsWEZmC~ZuVs8ENKuH8bF0sTQifiHn20qEZmYkPkhC0ZSvcevo1Q7-Gmy8qSL8XbdiFyVUlco~QeIN8C0dcLjDDSi0tbiGe20py23XdxjNg5xQ78EkA4n1y-156joLSmhzvslqNID26HuxFw__" 
+                            alt="profile picture" class="mx-auto" width="100" height="100" style="padding-right: 10px; position: absolute; left: 20px; padding-bottom: 10px;">
+                            <div style="padding-left: 80px;">
+                                <h5 >Настя Ивлеева Вячяслаовна</h5>
+                                <P style="color: #FF9900; padding-top: 0; margin-top: 0;">проверено</P>
+                            </div>
+                            
+                    </div>
+
+                    <p class="card-text"><strong>Редкость:</strong>
+                        <button type="button" class="btn btn-outline-warning">уникальная</button>
+                    </p>
+                    <p class="card-text"><strong>Цена:</strong>
+                        <span class="badge text-bg-warning">от 500 ₽</span>
+                    </p>
+                    <a href="#" class="btn btn-warning">Купить</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-md-6 mb-4">
+            <div class="card">
+                <img src="https://s3-alpha-sig.figma.com/img/b033/41a2/8cf158951f85281082503778f1c1adda?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=o-b60r5M1IahJtkHyMlGrebkQNGF2ZJfGza9m8MwIeoBNGTicx4NWg2Kfu-GvyK0mTf4b~WyrTQqxDTnQPZ-731i1UpaHuEesabglS4D~EKC0FN481pSMDqyKHWxrYvUsCqFjhqmh97rblQQS~FSQ3ZP8vINyMj4ZkZW3kXeEiiEcziovKaIK4DsPcIf45NU~UGo1ABVnIYHxV5ItKbK58ycVESqkTPYc9BL5LJr~MuhCQHxsQy7or87H5pTXwQuy7HE-JxxyU7dlLwJDYLqZJZI5cFVmGClbkq9QgpETBEZ6JSVC9qgObxxOJzarpobaLIAcFpjNmg-m69UWY~MKQ__"
+                 class="card-img-top" alt="Star 1" >
+                <div class="card-body">
+                    <h5 class="card-title">Без слов</h5>
+                    <div class="container-md d-flex justify-content-between align-items-center">
+                        <img src="https://s3-alpha-sig.figma.com/img/f22f/1f83/e1a7c11446ce4914842118bd6b42b8e1?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pBmI4vXcwPOH04n7QIgxkHuqfHAzhrJlob2wQb6v6UjxBHb9p3HvfosO8xaj1p7poXnR1nG~L4qdXrjjbn573Iv3BSVc-qpWttJBFa5dneVjlERWXAVaqD9g6zaYFrGZeQ~3ny78fOtAQnvxUoBOmAjxhASRHVlToyrUNa6bVJXmoXzx8uH1pshaL~MiU8mtpUHPjELsWEZmC~ZuVs8ENKuH8bF0sTQifiHn20qEZmYkPkhC0ZSvcevo1Q7-Gmy8qSL8XbdiFyVUlco~QeIN8C0dcLjDDSi0tbiGe20py23XdxjNg5xQ78EkA4n1y-156joLSmhzvslqNID26HuxFw__" 
+                            alt="profile picture" class="mx-auto" width="100" height="100" style="padding-right: 10px; position: absolute; left: 20px; padding-bottom: 10px;">
+                            <div style="padding-left: 80px;">
+                                <h5 >Настя Ивлеева Вячяслаовна</h5>
+                                <P style="color: #FF9900; padding-top: 0; margin-top: 0;">проверено</P>
+                            </div>
+                            
+                    </div>
+
+                    <p class="card-text"><strong>Редкость:</strong>
+                        <button type="button" class="btn btn-outline-warning">уникальная</button>
+                    </p>
+                    <p class="card-text"><strong>Цена:</strong>
+                        <span class="badge text-bg-warning">от 500 ₽</span>
+                    </p>
+                    <a href="#" class="btn btn-warning">Купить</a>
+                </div>
+            </div>
+        </div>
+
+        <nav aria-label="Page navigation example">
+            <ul class="pagination pagination-custom">
+                <li class="page-item disabled">
+                    <a class="page-link" href="#" tabindex="-1" aria-disabled="true">«</a>
+                </li>
+                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                <li class="page-item"><a class="page-link" href="#">5</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#">»</a>
+                </li>
+            </ul>
+        </nav>
+
+    </div>
+    </main>
+
+
+    <footer class="bg-warning text-dark pt-4 mt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <p>Что такое NFT</p>
+                    <p>Создайте NFT с нами</p>
+                    <p>О нас</p>
+                    <p>Отправить запрос</p>
+                    <p>Условия использования</p>
+                    <p>Политика конфиденциальности</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <img src="https://s3-alpha-sig.figma.com/img/a9c7/3bfb/9a17d5e57a63597a7a17841a1e4bcbb6?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jkg1BK3fkYkedbkS8DT8ilniio3IzxsrVs9-GgV2~QU8zorfhKVAQuPrJ-kJ8nSat5AnQyVn-rVkCLvXOnnF8jpmHx7ZHCI1Kk-GKfTPPVart5MClj2Iw9dgA4Z7dClfFwuZnP3ihOqPovf75Qctl17SRifsTvsNgBOAWnWxgfuwhwRmcKRm5GNTqElyAI3PUgO4w2RfpXCFuyllOxXBCwlP6JqM18zsNN3~6V~Ghwndjs-O-2rDw-5gdCVVVoA0FvBPfalINRiXxwyFnoYU-AkvW9RdjQp-avA366vFWP6ZG26Gw5Tw-b6F-Ko4xWzXuvF9HbL7vt69FFV~Hi5SZA__"
+                 class="card-img-top" style="position: relative;
+                 left: 350px;  width: 60px; height: 60px; opacity: 70%;" alt="Star 1" >
+                </div>
+                
+            </div>
+           
+        </div>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
